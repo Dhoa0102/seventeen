@@ -1,5 +1,6 @@
 let song=document.getElementById("song");
 let ctr=document.getElementById("ctr").classList;
+const controlButton = document.getElementById('playerControl');
 // song.onloadedmetadata = function() 
 // {
 //     lin.max=song.duration;
@@ -22,3 +23,4 @@ function playPause()
     }
 }
 
+controlButton.addEventListener('click', () => playPause());

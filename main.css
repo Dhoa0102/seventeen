@@ -2,9 +2,8 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-html
-{
 
 }
 body
@@ -31,7 +30,7 @@ body
 {
     height: 450px;
     width: 400px;
-    background-color: rgba(255, 0, 0, 0.4);
+    background-color: rgba(241, 65, 153, 0.4);
     border-radius: 15px;
     margin: auto;
     display: block;
