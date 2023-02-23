@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html
+{
+
+}
+body
+{
+    overflow: hidden;
+}
+.background{
+    background-image:url(hpbd.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: -15px;
+    min-width: 100%;
+}
+.blur
+{
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+}
+.content
+{
+    height: 450px;
+    width: 400px;
+    background-color: rgba(255, 0, 0, 0.4);
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+}
+.picture
+{
+    width: 200px;
+    height: 260px;
+    transform: translateY(-40px);
+    margin: 0 100px;
+    border-radius: 15px;
+}
+h1
+{
+    text-align: center;
+    font-size: 32px;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translateY(-15px);
+}
+h2
+{
+    text-align: center;
+    padding:15px 0;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translateY(-15px);
+}
+#line
+{
+    width: 70%;
+    height:4px;
+    background-color: pink;
+    margin:0 15% 10px;
+    border-radius: 2px;
+}
+.btn
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+.backic:hover
+{
+    transform: scale(1.5);
+    color: aliceblue;
+    transition: all .1s linear;
+}
+.playic:hover
+{
+    transform: scale(1.5);
+    color: aliceblue;
+    transition: all .1s linear;
+}
+.nextic:hover
+{
+    transform: scale(1.5);
+    color: aliceblue;
+    transition: all .1s linear;
+}
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 32px;
+}
+.pause
+{
+    display: none;
+}
