@@ -1,10 +1,10 @@
 let song=document.getElementById("song");
 let ctr=document.getElementById("ctr").classList;
-song.onloadedmetadata = function() 
-{
-    lin.max=song.duration;
-    lin.value=song.currentTime;
-}
+// song.onloadedmetadata = function() 
+// {
+//     lin.max=song.duration;
+//     lin.value=song.currentTime;
+// }
 
 function playPause()
 {
